@@ -21,6 +21,12 @@ h2 {
     font-size: 2.5em;
 }
 
+span {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+}
+
 button {
     border-radius: 5px;
     border: 1px solid #fff;
@@ -42,8 +48,3 @@ button:hover {
     transition: .2s linear;
 }
 
-span {
-    color: #fff;
-    font-size: 2em;
-    font-weight: 700;
-}

@@ -61,4 +61,4 @@ document.addEventListener('DOMContentLoaded', function() {
         if (minutes > 9) appendMinutes.innerHTML = minutes;
     }
 
-});
+})

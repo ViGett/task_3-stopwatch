@@ -2,16 +2,16 @@
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< СТАРТОВАЯ ФУНКЦИЯ
 document.addEventListener('DOMContentLoaded', function() {
-    var minutes = 0;
-    var seconds = 0;
-    var tens = 0;
-    var appendMinutes = document.getElementById("minutes");
-    var appendSeconds = document.getElementById("seconds");
-    var appendTens = document.getElementById("tens");
-    var buttonOfStart = document.getElementById("button_of_start");
-    var buttonOfStop = document.getElementById("button_of_stop");
-    var buttonOfReset = document.getElementById("button_of_reset");
-    var Interval;
+    let minutes = 0;
+    let seconds = 0;
+    let tens = 0;
+    let appendMinutes = document.getElementById("minutes");
+    let appendSeconds = document.getElementById("seconds");
+    let appendTens = document.getElementById("tens");
+    let buttonOfStart = document.getElementById("button_of_start");
+    let buttonOfStop = document.getElementById("button_of_stop");
+    let buttonOfReset = document.getElementById("button_of_reset");
+    let Interval;
 
     buttonOfStart.addEventListener('click', clickToStart);
     buttonOfStop.addEventListener('click', clickToStop);
